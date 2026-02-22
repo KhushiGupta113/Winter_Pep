@@ -3,7 +3,7 @@ Arrays -
 
 First repeating element - 
 
-Sol- 
+Sol.
 int firstRepeated(vector<int> &arr) {
         
         int n=arr.size();
