@@ -30,7 +30,7 @@ int main() {
         cout<<it<<" ";
     }
     cout<<endl;
-    //
+    
     // cout<<"pivot index is "<<index;
     
 }
