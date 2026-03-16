@@ -1,1 +1,25 @@
 #Queue
+A queue is a linear data structure in computer science that operates on the First-In, First-Out (FIFO) principle, much like people waiting in line for a ticket counter. The first element added to the queue is the first one to be removed. 
+
+Key Concepts
+FIFO Principle: Elements are processed in the order they arrive. The item that goes in first is the item that comes out first.
+Ends of the Queue:
+Front (or Head): The end from which elements are removed (deletion).
+Rear (or Tail): The end to which new elements are added (insertion). 
+
+Basic Operations
+Fundamental operations on a queue allow for efficient manipulation of its elements: 
+
+enqueue(): Adds a new element to the rear of the queue.
+dequeue(): Removes and returns the element from the front of the queue.
+peek() (or getFront()): Returns the value of the front element without removing it.
+isEmpty(): Checks if the queue contains any elements.
+size(): Returns the total number of elements currently in the queue. 
+
+Types of Queues
+There are several types of queues used in data structures and algorithms: 
+
+Simple Queue: A basic queue where insertions occur only at the rear and deletions only at the front.
+Circular Queue: A more memory-efficient version of a simple queue where the last element is connected to the first, allowing the reuse of empty spots in an underlying array implementation.
+Priority Queue: Elements are dequeued based on a specific priority, not necessarily their arrival order. This is often implemented using heaps.
+Double-Ended Queue (Deque): A versatile structure that allows for insertion and deletion from both the front and the rear ends. 
