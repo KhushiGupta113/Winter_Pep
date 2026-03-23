@@ -7,7 +7,7 @@ Ends of the Queue:
 Front (or Head): The end from which elements are removed (deletion).
 Rear (or Tail): The end to which new elements are added (insertion). 
 
-Basic Operations
+Basic Operations:
 Fundamental operations on a queue allow for efficient manipulation of its elements: 
 
 enqueue(): Adds a new element to the rear of the queue.
